@@ -7,7 +7,8 @@ public class Phone {
         this.brand = brand;
     }
 
-    String getBrand() {
+    // Methode moet access modifier public krijgen.
+    public String getBrand() {
         return brand;
     }
 }
