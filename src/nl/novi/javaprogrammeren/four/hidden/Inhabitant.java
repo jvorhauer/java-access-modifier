@@ -1,17 +1,17 @@
 package nl.novi.javaprogrammeren.four.hidden;
 
 class Inhabitant {
-    private String name;
+  private String name;
 
-    Inhabitant(String name) {
-        this.name = name;
-    }
+  Inhabitant(String name) {
+    this.name = name;
+  }
 
-    String getName() {
-        return name;
-    }
+  String getName() {
+    return name;
+  }
 
-    void setName(String name) {
-        this.name = name;
-    }
+  void setName(String name) {
+    this.name = name;
+  }
 }
